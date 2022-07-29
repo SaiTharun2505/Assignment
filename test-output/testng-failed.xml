@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Assignment]">
+  <listeners>
+    <listener class-name="wLPayments.Assignments.TestUtilities.Test_Results"/>
+  </listeners>
+  <test thread-count="5" name="Assignment(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="wLPayments.Assignments.TestCases.Login_Page_Test">
+        <methods>
+          <include name="TestCase_003"/>
+          <include name="Browser_Launch"/>
+          <include name="Browser_Close"/>
+        </methods>
+      </class> <!-- wLPayments.Assignments.TestCases.Login_Page_Test -->
+    </classes>
+  </test> <!-- Assignment(failed) -->
+</suite> <!-- Failed suite [Assignment] -->

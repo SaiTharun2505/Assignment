@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Assignment">
+	<listeners>
+		<listener class-name="wLPayments.Assignments.TestUtilities.Test_Results"/>
+	</listeners>
+  <test name="Assignment">
+      <parameter name="Browser" value="Chrome"/>
+      <classes>
+     	 <class name="wLPayments.Assignments.TestCases.Login_Page_Test"/>
+      </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->
